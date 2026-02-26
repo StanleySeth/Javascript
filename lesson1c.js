@@ -3,4 +3,7 @@
 let height = 7.6 
 let temperature = 35
 let points = 70
-console.log(height, temperature, points)
+console.log("The height is: ", height)
+console.log("The temperature is: ", temperature)
+console.log("The points are: ", points)
+console.log(typeof(height, temperature, points))
