@@ -24,3 +24,6 @@ let Y = true === 5     // false
 console.log(N)
 console.log(X)
 console.log(Y)
+
+
+// Research on arrow function, functions with parameters and anonymous functions in javascript.

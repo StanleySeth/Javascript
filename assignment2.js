@@ -1,4 +1,4 @@
-let distance = -8
+let distance = 
 
 if(distance<=100 && distance>=0){
     console.log("Pay 5 USD")
@@ -13,5 +13,5 @@ else if(distance>1000){
     console.log("Pay 40 USD")
 }
 else {
-    console.log("Invalid Distance")
+    console.error("Invalid Distance")
 }
