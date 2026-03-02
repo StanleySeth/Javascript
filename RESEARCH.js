@@ -25,5 +25,28 @@ console.log(N)
 console.log(X)
 console.log(Y)
 
+console.log("====================================")
 
 // Research on arrow function, functions with parameters and anonymous functions in javascript.
+//1.Arrow function
+//An arrow function uses the => symbol.
+//An arrow function is always written as a function expression.
+//Note:This works only if the function has only one statement.
+//They cannot be used as constructors.
+//They are commonly used in callbacks.
+//They allow implicit return when there is only one expression.
+console.log("+++++++++++++++++++++++++++++")
+//2.Anonymous function
+//An anonymous function is a function without a name. It is usually stored in a variable or used as a callback function.
+const greet = function() {
+    console.log("Hello");
+};
+greet()
+hey();
+console.log("+++++==================++++++==")
+//3.Functions with parameters
+//A function with parameters is a function that accepts input values (arguments) when it is called. These parameters allow the function to work with different data.
+function hey(name, age) {
+    console.log("My name is ",name," and I am ",age," years old.");
+}
+hey("Stanley", 19);

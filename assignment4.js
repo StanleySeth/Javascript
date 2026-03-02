@@ -25,5 +25,5 @@ if (gross_salary < 6000) {
 }
 
 // Display results
-console.log("Gross Salary: " + gross_salary);
-console.log("Monthly Contribution: " + contribution);
+console.log("Gross Salary: ",gross_salary);
+console.log("Monthly Contribution: ",contribution);
