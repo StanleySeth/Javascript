@@ -50,3 +50,11 @@ function hey(name, age) {
     console.log("My name is ",name," and I am ",age," years old.");
 }
 hey("Stanley", 19);
+
+//Research on modules in Javascript
+//A JavaScript module is a file that contains code that can be exported and reused in other files.
+
+
+
+//Research on const and let in arrow functions
+//Research on global and local variables 
